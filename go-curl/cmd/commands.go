@@ -22,8 +22,10 @@ func Get() cli.Command {
 		Description: "Peforms a GET request",
 		Flags: []cli.Flag{
 			cli.StringFlag{Name: "url", Usage: "", Value: ""},
+			cli.StringFlag{Name: "L", Usage: "--L", Value: "false"},
 		},
 		Action: func(c *cli.Context) error {
+
 			// First, let's validate the URL. If it's invalid, throw an error.
 			rawURL := c.String("url")
 			targetURL, err := url.Parse(rawURL)
@@ -39,8 +41,10 @@ func Get() cli.Command {
 			client := http.DefaultClient
 
 			// override the default behaivor of our client so that it DOESN'T follow redirects (just like curl)
-			client.CheckRedirect = func(req *http.Request, via []*http.Request) error {
-				return http.ErrUseLastResponse
+			if c.String("L") != "true" {
+				client.CheckRedirect = func(req *http.Request, via []*http.Request) error {
+					return http.ErrUseLastResponse
+				}
 			}
 
 			res, err := client.Get(targetURL.String())
