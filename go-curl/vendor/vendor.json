@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "alChWlwA6lXYzGbnPyfziw0lEmU=",
+			"path": "github.com/urfave/cli",
+			"revision": "7ace96b43d4bdc46f81d0d1219742b2469874cf6",
+			"revisionTime": "2017-11-16T04:56:12Z"
+		}
+	],
+	"rootPath": "github.com/patrickcisco/clus-2019/go-curl"
+}
