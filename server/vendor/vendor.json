@@ -1,0 +1,67 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "XF5/CQ3PigzJQ8i7B9rNy50yMCI=",
+			"path": "github.com/julienschmidt/httprouter",
+			"revision": "d1898390779332322e6b5ca5011da4bf249bb056",
+			"revisionTime": "2018-02-22T16:05:26Z"
+		},
+		{
+			"checksumSHA1": "ZBxE4LMUVBP3v/zW6AvKE76EzjU=",
+			"path": "github.com/klauspost/compress/flate",
+			"revision": "f3dce52e0576655d55fd69e74b63da96ad1108f3",
+			"revisionTime": "2017-05-28T13:23:59Z"
+		},
+		{
+			"checksumSHA1": "qi+xvDd6b8YJYBV3qYHQ/9C6XT0=",
+			"path": "github.com/klauspost/compress/gzip",
+			"revision": "f3dce52e0576655d55fd69e74b63da96ad1108f3",
+			"revisionTime": "2017-05-28T13:23:59Z"
+		},
+		{
+			"checksumSHA1": "xgit1+scf+sHFgzIVcnfxnYlNWM=",
+			"path": "github.com/klauspost/compress/zlib",
+			"revision": "f3dce52e0576655d55fd69e74b63da96ad1108f3",
+			"revisionTime": "2017-05-28T13:23:59Z"
+		},
+		{
+			"checksumSHA1": "E9oNGlP1StO+duHaHPGUs+TPWVE=",
+			"path": "github.com/klauspost/cpuid",
+			"revision": "ae7887de9fa5d2db4eaa8174a7eff2c1ac00f2da",
+			"revisionTime": "2017-07-28T05:55:34Z"
+		},
+		{
+			"checksumSHA1": "uWU+20+0+B3itBUWt55fHG8Oty8=",
+			"path": "github.com/valyala/bytebufferpool",
+			"revision": "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7",
+			"revisionTime": "2016-08-17T18:16:52Z"
+		},
+		{
+			"checksumSHA1": "Qoks4QUjBOWgHCWjArHy2+Ck5gE=",
+			"path": "github.com/valyala/fasthttp",
+			"revision": "5116aa64e038d917b3916a74da456c00643ff1e6",
+			"revisionTime": "2017-09-12T10:15:57Z"
+		},
+		{
+			"checksumSHA1": "QiyAdvX0eC/StiXthZlgwFd3xsQ=",
+			"path": "github.com/valyala/fasthttp/expvarhandler",
+			"revision": "5116aa64e038d917b3916a74da456c00643ff1e6",
+			"revisionTime": "2017-09-12T10:15:57Z"
+		},
+		{
+			"checksumSHA1": "f8YuvN1XZEclovfDkvcpTx2cCdA=",
+			"path": "github.com/valyala/fasthttp/fasthttputil",
+			"revision": "5116aa64e038d917b3916a74da456c00643ff1e6",
+			"revisionTime": "2017-09-12T10:15:57Z"
+		},
+		{
+			"checksumSHA1": "ZmAZINQ0pDtVfO/wQPj+NC6mu/I=",
+			"path": "github.com/valyala/fasthttp/stackless",
+			"revision": "5116aa64e038d917b3916a74da456c00643ff1e6",
+			"revisionTime": "2017-09-12T10:15:57Z"
+		}
+	],
+	"rootPath": "github.com/patrickcisco/clus-2019/server"
+}
